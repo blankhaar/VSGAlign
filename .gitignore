@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+*.swp
+
+build/
+dist/
+*.egg-info/
+artifacts/
+tmp/
+
+figures/
+scripts/figures/
+out_plots/
+out_pol_compare/
+sandbox/

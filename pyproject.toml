@@ -1,0 +1,71 @@
+[project]
+name = "vsgalign"
+version = "0.1.0"
+description = "VSGAlign: spinning-dust emissivity, polarization, and absorption calculations for the dust-alignment paper"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "EUPL-1.2"
+license-files = ["LICENSE"]
+authors = [
+    {name = "Boy Lankhaar", email = "boy.lankhaar@astro.uio.no"},
+]
+maintainers = [
+    {name = "Boy Lankhaar", email = "boy.lankhaar@astro.uio.no"},
+]
+keywords = [
+    "spinning-dust",
+    "anomalous-microwave-emission",
+    "polarization",
+    "dust-alignment",
+    "astrophysics",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "numpy>=1.24,<3",
+    "scipy>=1.10,<2",
+]
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2604.26001"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4,<10",
+    "pytest-cov>=4,<8",
+    "matplotlib>=3.7,<4",
+    "build>=1,<2",
+]
+plot = [
+    "matplotlib>=3.7,<4",
+]
+release = [
+    "build>=1,<2",
+    "twine>=5,<7",
+]
+
+[project.scripts]
+vsgalign-emissivity = "rotor_emissivity.cli:main"
+vsgalign-polarized-emissivity = "rotor_polarized_emissivity.cli:main"
+
+[build-system]
+requires = ["setuptools>=77.0.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]

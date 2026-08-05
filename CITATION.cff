@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the software release and the associated paper."
+title: "VSGAlign"
+type: software
+authors:
+  - family-names: "Lankhaar"
+    given-names: "Boy"
+    email: "boy.lankhaar@astro.uio.no"
+version: "0.1.0"
+license: "EUPL-1.2"
+abstract: "Software for spinning-dust emissivity, polarization, absorption cross sections, and manuscript-figure reproduction."
+keywords:
+  - spinning dust
+  - anomalous microwave emission
+  - polarization
+  - dust alignment
+  - astrophysics
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Lankhaar"
+      given-names: "Boy"
+  title: "A quantum theory of the alignment and polarization of very small dust grains"
+  year: 2026
+  url: "https://arxiv.org/abs/2604.26001"
+  identifiers:
+    - type: other
+      value: "arXiv:2604.26001"
+      description: "arXiv identifier"

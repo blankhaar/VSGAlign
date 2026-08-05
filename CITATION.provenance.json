@@ -1,0 +1,18 @@
+{
+  "associated_paper": {
+    "source_type": "arXiv API",
+    "arxiv_id": "2604.26001",
+    "retrieval_date": "2026-08-05",
+    "verified_fields": {
+      "author": "Boy Lankhaar",
+      "title": "A quantum theory of the alignment and polarization of very small dust grains",
+      "year": 2026,
+      "primary_class": "astro-ph.GA",
+      "url": "https://arxiv.org/abs/2604.26001"
+    },
+    "warnings": [
+      "The arXiv record provides no DOI or journal reference.",
+      "The final 2026-08-04 journal-submission source, not arXiv v1, is authoritative for paper figures."
+    ]
+  }
+}
