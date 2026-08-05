@@ -8,6 +8,7 @@ authors:
     email: "boy.lankhaar@astro.uio.no"
 version: "0.1.0"
 license: "EUPL-1.2"
+repository-code: "https://github.com/blankhaar/VSGAlign"
 abstract: "Software for spinning-dust emissivity, polarization, absorption cross sections, and manuscript-figure reproduction."
 keywords:
   - spinning dust

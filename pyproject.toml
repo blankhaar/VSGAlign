@@ -36,6 +36,8 @@ dependencies = [
 
 [project.urls]
 Paper = "https://arxiv.org/abs/2604.26001"
+Repository = "https://github.com/blankhaar/VSGAlign"
+Issues = "https://github.com/blankhaar/VSGAlign/issues"
 
 [project.optional-dependencies]
 dev = [
